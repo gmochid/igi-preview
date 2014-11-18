@@ -859,6 +859,30 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
+.glyphicon-large {
+    font-size: 32px;
+    line-height: 1.3;
+}
+
+.panel-flowchart {
+    height: 200px;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    vertical-align:top;
+}
+
+.row-centered {
+    text-align:center;
+    vertical-align:top;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #fed136;
@@ -867,6 +891,10 @@ ul.social-buttons li a:active {
 ::selection {
     text-shadow: none;
     background: #fed136;
+}
+
+th {
+    text-align: center;
 }
 
 img::selection {
